@@ -1,0 +1,2 @@
+[console_scripts]
+JITStreamer = JITStreamer.__main__:start_server

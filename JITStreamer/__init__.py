@@ -444,6 +444,6 @@ def start_server(verbose, timeout, pair, version):
         port = int(settings('port'))
     except:
         # If conversion fails, check if it's a boolean
-        port = 8080
+        port = 52666
     
-    app.run(host='0.0.0.0', port=port)
+    app.run(host='127.0.0.11', port=port)

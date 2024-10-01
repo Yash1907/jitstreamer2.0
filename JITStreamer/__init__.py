@@ -49,7 +49,7 @@ if not config.has_section('Settings'):
     config.add_section('Settings')
     config.set('Settings', 'see_udid', 'false')
     config.set('Settings', 'refresh_all', 'false')
-    config.set('Settings', 'port', '8080')
+    config.set('Settings', 'port', '52666')
     
 
 if not config.has_section('Tunnel'):
